@@ -1,0 +1,9 @@
+print(25//3)
+x=3.14
+y=int(x)
+print(y)
+print((10**4)%2)
+print(((10**2)%2)%2)
+print((36%59)**2)
+print(81%17)
+print('dd',(6**41)%59)
