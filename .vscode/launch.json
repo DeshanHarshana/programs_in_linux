@@ -1,0 +1,105 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - generic_class",
+            "request": "launch",
+            "mainClass": "generic_class",
+            "projectName": "Program_ac7d7d82"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - genaric_with_map",
+            "request": "launch",
+            "mainClass": "genaric_with_map",
+            "projectName": "Program_ac7d7d82"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - test",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "Program_ac7d7d82"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MainApp",
+            "request": "launch",
+            "mainClass": "MainApp",
+            "projectName": "Program_ac7d7d82"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - userDifineException",
+            "request": "launch",
+            "mainClass": "userDifineException",
+            "projectName": "Program_ac7d7d82"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - UserDefine",
+            "request": "launch",
+            "mainClass": "UserDefine",
+            "projectName": "Program_ac7d7d82"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - throwsException",
+            "request": "launch",
+            "mainClass": "throwsException",
+            "projectName": "Program_ac7d7d82"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-E<Program_ac7d7d82>",
+            "request": "launch",
+            "mainClass": "E",
+            "projectName": "Program_ac7d7d82"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-test<Program_ac7d7d82>",
+            "request": "launch",
+            "mainClass": "Hackerrank.test",
+            "projectName": "Program_ac7d7d82"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-exceptionPropergation<Program_ac7d7d82>",
+            "request": "launch",
+            "mainClass": "exceptionPropergation",
+            "projectName": "Program_ac7d7d82"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-pp<Program_ac7d7d82>",
+            "request": "launch",
+            "mainClass": "pp",
+            "projectName": "Program_ac7d7d82"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-throwException<Program_ac7d7d82>",
+            "request": "launch",
+            "mainClass": "throwException",
+            "projectName": "Program_ac7d7d82"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-tryCatch<Program_ac7d7d82>",
+            "request": "launch",
+            "mainClass": "tryCatch",
+            "projectName": "Program_ac7d7d82"
+        }
+    ]
+}

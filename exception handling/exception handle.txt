@@ -1,0 +1,75 @@
+we usually have two type exception
+
+            Here are the few other Checked Exceptions(compile time)
+
+                    SQLException
+                    IOException
+                    ClassNotFoundException
+                    InvocationTargetException
+            
+            Here are the few unchecked exception classes(runtime)
+
+                    NullPointerException
+                    ArrayIndexOutOfBoundsException
+                    ArithmeticException
+                    IllegalArgumentException
+                    NumberFormatException
+
+we can use try catch block for handle error
+then we have to use try and catch block
+
+but in catch sometimes we have to face some problem if we don't know 
+what type of exception will occur then we have to declare all type
+
+try{
+    //code
+}
+catch(Exception e){
+    print(e)
+}catch(ArithmeticException e){
+    print(e)
+}catch(NullPointerException e){
+    print(e)
+}
+
+but we have easy way to do this
+if we have risky code then we can use throws keyword with that method
+
+void display(int a) throws NullPointerException, ArithmeticException{
+    print(a/0);
+}
+
+then this consider what type of exception occur and it will throws
+
+then we can catch it easyly. there are no error even if we not catch that error
+
+example code
+
+                public static void main(String[] args) {
+                        try {
+                            display(10);
+                        } catch (Exception e) {
+                            System.out.println(e);
+                        }
+                        
+                    }
+                    static void display(int num) throws Exception{
+                        System.out.println(num/0);
+                    }
+
+this will catch error and show it
+
+throws not handle error. it is suppress error
+Suppressed exceptions, as name suggest, are exceptions thrown in the code but were ignored somehow.
+
+throw use to specific classes
+if we want to throw exception when we give number greter than 10
+
+then we can use 
+
+if(num>10){
+    throw new Exception(""Greter than 10")
+}
+
+then we should use throws to after that method or insert it inside try catch block
+
