@@ -1,0 +1,51 @@
+we can use generics in class
+
+class Example<T>{}
+
+class Example<T,V>{}
+
+class Example<T extends Number, V extends String>{} // we can specify like this and only accept extends
+                                                    // things
+------------------------------------------------------------------------------------------------------
+
+List<Integer> list2 = new ArrayList<Integer>(); // basic generics only accept Integer list
+
+Map<Integer,String> map=new HashMap<Integer,String>(); // map with integer
+
+------------------------------------------------------------------------------------------------------
+
+static<E> void display(E[] elements){
+        for ( E element : elements){          
+            System.out.println(element );  
+         }  
+         System.out.println();  
+    }
+
+    static<V> V get(V value) {
+        return value;
+    }
+
+--------------------------------------------------------------------------------------------------------
+
+private static double sum(List<? extends Number> list)  
+    { //this list can accept Int, double, flot value (wildcard)
+        double sum=0.0; 
+        for (Number i: list) 
+        { 
+            sum+=i.doubleValue(); // we know i is number
+        } 
+  
+        return sum; 
+    }
+----------------------------------------------------------------------------------------------------------
+
+private static void printlist(List<?> list)  // this list can assign any type
+    { 
+  
+        System.out.println(list); 
+    } 
+
+----------------------------------------------------------------------------------------------------------
+
+
+List<Number> numbers = new ArrayList<Integer>(); // will not compile

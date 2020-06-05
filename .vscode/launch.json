@@ -6,6 +6,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - customeWapperClass",
+            "request": "launch",
+            "mainClass": "customeWapperClass",
+            "projectName": "Program_ac7d7d82"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - wapperClass",
+            "request": "launch",
+            "mainClass": "wapperClass",
+            "projectName": "Program_ac7d7d82"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - objectCloning",
+            "request": "launch",
+            "mainClass": "objectCloning",
+            "projectName": "Program_ac7d7d82"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Student",
+            "request": "launch",
+            "mainClass": "Student",
+            "projectName": "Program_ac7d7d82"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Generic_Class_SLITT",
+            "request": "launch",
+            "mainClass": "Generic_Class_SLITT",
+            "projectName": "Program_ac7d7d82"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - unboundedwildcardemo",
+            "request": "launch",
+            "mainClass": "unboundedwildcardemo",
+            "projectName": "Program_ac7d7d82"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - wildCard_Generics",
+            "request": "launch",
+            "mainClass": "wildCard_Generics",
+            "projectName": "Program_ac7d7d82"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - generic_method",
+            "request": "launch",
+            "mainClass": "generic_method",
+            "projectName": "Program_ac7d7d82"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - generic_class",
             "request": "launch",
             "mainClass": "generic_class",
