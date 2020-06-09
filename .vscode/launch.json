@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - sum_of",
+            "request": "launch",
+            "mainClass": "upload.sum_of",
+            "projectName": "Program_ac7d7d82"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - multithred",
+            "request": "launch",
+            "mainClass": "multithred.multithred",
+            "projectName": "Program_ac7d7d82"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - sum_of",
+            "request": "launch",
+            "mainClass": "sum_of",
+            "projectName": "Program_ac7d7d82"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - fib_tail_rec",
+            "request": "launch",
+            "mainClass": "fib_tail_rec",
+            "projectName": "Program_ac7d7d82"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - fib_non_tail",
+            "request": "launch",
+            "mainClass": "fib_non_tail",
+            "projectName": "Program_ac7d7d82"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - fib",
+            "request": "launch",
+            "mainClass": "fib",
+            "projectName": "Program_ac7d7d82"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Recuring",
+            "request": "launch",
+            "mainClass": "Recuring",
+            "projectName": "Program_ac7d7d82"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - customeWapperClass",
             "request": "launch",
             "mainClass": "customeWapperClass",
